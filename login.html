@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+<body>
+    <main id="conteiner">
+        <form id="login_form">
+            <div id="form_header">
+                <h1>Login</h1>
+                <hr>
+            </div>
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Nome
+                        <div class="input-field">
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">
+                        Email
+                        <div class="input-field">
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="input-box">
+                    <label for="senha">
+                        Senha
+                        <div class="input-field">
+                            <input type="password" id="password" name="password" required>
+                        </div>
+                    </label>
+                    <div id="esqueceu-senha">
+                        <a href="#">
+                            Não tem uma conta? Crie agora
+                        </a>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+</body>
+</html>

@@ -7,8 +7,8 @@
 }
 
 body{
-    background: #06080f;
-    color:#fff;
+    background:#cfcdc1;
+    color:#181717;
 }
 
 html{
@@ -18,7 +18,7 @@ html{
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: #181717;
 }
 
 ul{
@@ -40,7 +40,7 @@ nav{
 
 a:hover{
     cursor: pointer;
-    color: #3aa8d4;
+    color: #9b6544;
 }
 
 .logo{
@@ -68,7 +68,7 @@ main{
 }
 
 .conteiner-equipe{
-    background: #020202;
+    background: #edebde;
     
 }
 
@@ -99,7 +99,7 @@ main{
 }
 
 .azul{
-    color: rgb(58, 168, 212);
+    color:#943520;
 }
 
 h1{
@@ -107,14 +107,15 @@ h1{
     font-style: normal;
     font-weight: 800;
     font-size: 3rem;
+   
 }
 
 hr{
-    border-color: hsl(197, 64%, 53%);
+    border-color: #362926;
 }
 
 .subtitulo-equipe{
-    color: #b3c2c7;
+    color: #362926;
 
     font-size: 1.5rem;
     font-family: Inter;
@@ -164,16 +165,16 @@ button{
 
 button:hover {
     letter-spacing: 3px;
-    background-color: hsl(197, 64%, 53%);
-    color: hsl(0, 0%, 100%);
-    box-shadow: rgb(58, 168, 212) 0px 7px 29px 0px;
+    background-color: #724738;
+    color: #e9e7d8;
+    box-shadow: rgb(114, 71, 56) 0px 7px 29px 0px;
 }
 
 button:active {
     letter-spacing: 3px;
-    background-color: hsl(197, 64%, 53%);
+    background-color: hsl(16, 34%, 33%);
     color: hsl(0, 0%, 100%);
-    box-shadow: rgb(58, 168, 212) 0px 0px 0px 0px;
+    box-shadow: rgb(114, 71, 56) 0px 0px 0px 0px;
     transform: translateY(10px);
     transition: 100ms;
 }
@@ -205,7 +206,7 @@ button:active {
 }
 
 .projetos-subtitulo{
-    color: #b3c2c7;
+    color: #362926;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -238,7 +239,7 @@ button:active {
 }
 
 .projeto-titulo{
-    color: #b3c2c7;
+    color: #943520;
     font-family: Montserrat;
     font-size: 1.5rem;
     font-style: normal;
@@ -247,7 +248,7 @@ button:active {
 }
 
 .projeto-descricao{
-    color: #b3c2c7;
+    color: #000000;
     font-family: Inter;
     font-size: 1.3rem;
     font-style: normal;
@@ -282,7 +283,7 @@ button:active {
 }
 
 .clientes-subtitulo{
-    color: #b3c2c7;
+    color: #362926;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -299,7 +300,7 @@ button:active {
 }
 
 .feedback-card{
-    background: #111111;
+    background: #a29f96;
     padding: 2rem;
     border-radius: 0.5rem;
     display: flex;
@@ -323,11 +324,11 @@ button:active {
 }
 
 .azul-claro{
-    color:#a6effd ;
+    color:#fefff3;
 }
 
 .feedback-titulo{
-    color: #b3c2c7;
+    color: #613c33;
     font-family: Montserrat;
     font-size: 1.25rem;
     font-style: normal;
@@ -335,7 +336,7 @@ button:active {
 }
 
 .feedback-nota{
-    color:#0aa3e1;
+    color:#fefff3;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
@@ -343,11 +344,12 @@ button:active {
 }
 
 .feedback-descricao{
-    color: #b3c2c7;
+    color: #000000;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
+    font-weight: bold;
 }
 
 .autor-info{
@@ -380,7 +382,7 @@ button:active {
 }
 
 .feedback-autor{
-    color: #b3c2c7;
+    color: #000000;
     font-family: Inter;
     font-size: 1rem;
     font-style: normal;
@@ -410,7 +412,7 @@ button:active {
 }
 
 .valores-subtitulo{
-    color: #b3c2c7;
+    color: #362926;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 400;
@@ -427,7 +429,7 @@ button:active {
 }
 
 .valores-card1{
-    background: #111111;
+    background: #878883;
     padding: 2rem;
     border-radius: 0.5rem;
     display: flex;
@@ -450,7 +452,7 @@ button:active {
 }
 
 .valor-titulo{
-    color: #b3c2c7;
+    color: #181717;
     font-family: Montserrat;
     font-size: 1.5rem;
     font-style: normal;
@@ -466,7 +468,7 @@ button:active {
 }
 
 .valores-descricao{
-    color: #b3c2c7;
+    color: #000000;
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;
@@ -507,7 +509,7 @@ button:active {
 }
 
 .valores-card2{
-    background: #111111;
+    background: #878883;
     
     border-radius: 0.5rem;
     display: flex;
@@ -543,7 +545,7 @@ button:active {
 }
 
 .valores-descricao2{
-    color: #b3c2c7;
+    color: #000000;
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;
@@ -563,18 +565,18 @@ footer{
     flex-direction: column;
     align-items: center;
     gap:0.5rem;
-    background: #0e111b;
+    background: #74736e;
 }
 
 .copyright{
-    color: #b3c2c7;
+    color: #fefff3;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 500;
 }
 
 .autor-page{
-    color: #748085;
+    color: #fefff3;
     font-family: Inter;
     font-size: 1rem;
     font-weight: 500;

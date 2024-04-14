@@ -17,15 +17,15 @@ a{
 }
 
 main{
-  background: #06080f;
+  background: #cfcdc1;
 }
 
 body{
-  background: #06080f;
+  background: #cfcdc1;
 }
 
 #conteiner{
-  background: #06080f;
+  background: #cfcdc1;
   color:#fff;
   display: flex;
   justify-content: center;
@@ -34,14 +34,14 @@ body{
 }
 
 #login_form{
-    background: #111111;
+    background: #878787;
     display: flex;
     flex-direction: column;
     height: 40rem;
     padding: 2rem 2.5rem;
     border-radius: 0.5rem;
     gap: 4rem;
-    box-shadow: 2px 2px 5px rgba(179, 194, 199, 0.5) ;
+    box-shadow: 2px 2px 5px rgb(54, 41, 38) ;
 }
 
 
@@ -50,7 +50,7 @@ body{
     color: #fff;
     width: 8.5em;
     height: 2.9em;
-    border: #3aa8d4 0.2em solid;
+    border: #fac28e 0.2em solid;
     border-radius: 11px;
     text-align: center;
     transition: all 0.6s ease;
@@ -59,7 +59,7 @@ body{
   }
   
   #login_button:hover {
-    background-color: #3aa8d4;
+    background-color: #fac28e;
     cursor: pointer;
   }
   
@@ -83,7 +83,7 @@ body{
   }
 
   hr{
-    border-color: #3aa8d4;
+    border-color: #fac28e;
     width: 18%;
     border-radius: 5px;
   }
@@ -106,7 +106,7 @@ body{
     gap: 1rem;
     padding: 0.188rem;
     cursor: text;
-    border-bottom: 1px solid #3aa8d4;
+    border-bottom: 1px solid #362926;
   }
 
   .input-field > input{
@@ -127,5 +127,5 @@ body{
   }
 
   #esqueceu-senha a:hover{
-    color: #0aa3e1;
+    color: #fac28e;
   }

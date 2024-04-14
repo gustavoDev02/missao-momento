@@ -230,11 +230,12 @@ button:active {
     width: 45%;
     padding-top: 7rem;
     padding-bottom: 5rem;
+    justify-content: center;
 }
 
 .projeto-texto1{
     width: 100%;
-    height: 34%;
+    height: 24%;
     margin-top: 2rem;
 }
 
@@ -323,7 +324,7 @@ button:active {
     gap: 0.5rem;
 }
 
-.azul-claro{
+.marrom-claro{
     color:#fefff3;
 }
 
@@ -452,7 +453,7 @@ button:active {
 }
 
 .valor-titulo{
-    color: #181717;
+    color: #fefff3;
     font-family: Montserrat;
     font-size: 1.5rem;
     font-style: normal;
@@ -468,7 +469,7 @@ button:active {
 }
 
 .valores-descricao{
-    color: #000000;
+    color: #ffffff;
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;
@@ -545,7 +546,7 @@ button:active {
 }
 
 .valores-descricao2{
-    color: #000000;
+    color: #ffffff;
     font-family: Inter;
     font-size: 1.5rem;
     font-style: normal;
@@ -601,6 +602,8 @@ footer{
         overflow: hidden;
     }
 
+    
+
     nav{
         padding-top: 0rem;
         padding-bottom: 0rem;
@@ -626,6 +629,7 @@ footer{
         flex-direction: column;
         gap:1rem;
         width: 100%;
+       
     }
 
     .destaque{
@@ -636,7 +640,7 @@ footer{
     }
 
     .azul{
-        color: rgb(58, 168, 212);
+        color: #943520;
     }
 
     h1{
@@ -647,8 +651,7 @@ footer{
     }
 
     .subtitulo-equipe{
-        color: #b3c2c7;
-    
+        color: #362926;
         font-size: 1.5rem;
         font-family: Inter;
         font-style: normal;
@@ -691,7 +694,7 @@ footer{
     }
 
     .valores-card1{
-        background: #111111;
+        background: #878883;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
@@ -719,7 +722,7 @@ footer{
     }   
     
     .valores-descricao2{
-        color: #b3c2c7;
+        color: #ffffff;
         font-family: Inter;
         font-size: 1.4rem;
         font-style: normal;
@@ -738,8 +741,7 @@ footer{
     }
 
     .valores-card2{
-        background: #111111;
-        
+        background: #878883;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
@@ -752,6 +754,7 @@ footer{
     .projetos{
         flex-direction: column;
         margin-bottom: 32rem;
+        
     }
 
     .projetos-cabecalho{
@@ -798,7 +801,7 @@ footer{
 
     
     .feedback-card{
-        background: #111111;
+        background: #a29f96;
         padding: 2rem;
         border-radius: 0.5rem;
         display: flex;
